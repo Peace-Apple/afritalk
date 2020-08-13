@@ -11,6 +11,10 @@ africastalking.initialize(username, api_key)
 
 sms = africastalking.SMS
 
-response = sms.send('I can do anything that I set my mind to', ['+256783449059'])
+message = 'I can do anything that I set my mind to'
+
+receipients = ['+256783449059']
+
+response = sms.send(message, receipients)
 
 print(response)
