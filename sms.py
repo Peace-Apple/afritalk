@@ -13,7 +13,7 @@ sms = africastalking.SMS
 
 message = 'I can do anything that I set my mind to'
 
-receipients = ['+256783449059']
+receipients = ['+256796895642']
 
 response = sms.send(message, receipients)
 
